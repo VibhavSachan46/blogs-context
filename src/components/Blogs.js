@@ -23,7 +23,7 @@ const Blogs = () => {
                 <p>No Post Found</p>
             </div>) : 
             (posts.map( (post) => (
-                <div key={post.id} className='border shadow-md py-2 px-3 bg-white rounded-md hover:scale-105 transition-all duration-300 cursor-pointer hover:bg-slate-100'>
+                <div key={post.id} className='border shadow-md py-2 px-3 bg-white rounded-md transition-all duration-300 cursor-pointer hover:bg-slate-200'>
                     <p className="font-bold text-lg ">{post.title}</p>
                     <p className='text-sm mt-[4px]'>
                         By <span className='italic'>{post.author}</span> on <span className='underline font-bold'>{post.category} </span>
